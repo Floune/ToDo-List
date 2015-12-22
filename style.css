@@ -60,6 +60,9 @@ h1 {
 	text-align: center;
 }
 
+/*
+	Regroupe les propriétés si elles concernent les mêmes éléments.
+*/
 button {
 	display:inline;
 	background-color:yellow;
@@ -69,6 +72,11 @@ button {
 	text-decoration: bold;
 }
 
+button:hover {
+	cursor:pointer;
+	background-color:#76FF03;
+}
+
 .item:hover {
 	background-color:#90a4ae;
 	width:600px;
@@ -76,10 +84,7 @@ button {
 
 }
 
-button:hover {
-	cursor:pointer;
-	background-color:#76FF03;
-}
+
 
 .barre {
 	text-decoration: line-through;
